@@ -10,8 +10,6 @@
 
 /*Variables Start*/
 
-
-
 /*Colores de prueba*/
 $backbindex: #4CA4D4;
 $backjardin: #F3BB9D;
@@ -19,6 +17,7 @@ $backbjardin: #FC9C7C;
 $backcjardin: #f58e5a;
 $backprimaria: #4CA4D4;
 $backbprimaria: #0a64ae;
+$backsuperior: #855692;
 /*Colores de prueba*/
 $liceo:#1c62b0;
 $ciudad: #702f91;
@@ -452,11 +451,13 @@ input {/*Utilizado en los formularios para dar el ancho de los inputs*/
     background: linear-gradient(to right, $iconcolor , $superiorcolor, $superiorcolor);
 }
 
+.backsuperior{
+    background-color: $backsuperior;
+}
 
 .colorsup{
     background-color: $liceo;
     color: white;
-    
 }
 
 .bordenegro{

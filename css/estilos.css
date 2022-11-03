@@ -1,5 +1,5 @@
 /*----INDICE----*/
-/* line 5, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 5, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .mbreset {
   margin: 0;
   border: 0;
@@ -12,25 +12,25 @@
 /*Variables End*/
 /*Comienzo*/
 /*--------------------CSS global (de todas las paginas)------------------*/
-/* line 44, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 43, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 body::-webkit-scrollbar {
   display: none;
 }
 
-/* line 49, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 48, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .aquamarine {
   /*Color del background general*/
   background-color: #7CB4DC;
 }
 
-/* line 53, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 52, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .logo {
   /*Utilizado en el logo de todos los headers*/
   border-radius: 50%;
   margin-right: 1%;
 }
 
-/* line 58, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 57, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .iconos {
   margin-top: 1%;
   margin-left: 1%;
@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 576px) {
-  /* line 68, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 67, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .iconos {
     margin-top: 1%;
     margin-left: 1%;
@@ -54,13 +54,13 @@ body::-webkit-scrollbar {
 
 @media screen and (min-width: 576px) {
   /*Utilizado en el titulo del header*/
-  /* line 79, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 78, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .none {
     display: none;
   }
 }
 
-/* line 84, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 83, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .dbody {
   /*Utilizado en el body de todos las paginas, necesario para las animaciones de comienzo de pagina*/
   position: absolute;
@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
-/* line 90, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 89, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 footer {
   /*Da los parametros de las letras del footer*/
   font-size: 11px;
@@ -76,19 +76,19 @@ footer {
   color: white;
 }
 
-/* line 96, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 95, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .borderwhite {
   /*Borde del footer*/
   border: solid 1px white;
 }
 
-/* line 100, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 99, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 input {
   /*Utilizado en los formularios para dar el ancho de los inputs*/
   width: 32%;
 }
 
-/* line 104, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 103, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .titulo {
   /*Utilizado en el titulo del Header para setear parametros de letra*/
   font-weight: bold;
@@ -97,7 +97,7 @@ input {
   color: white;
 }
 
-/* line 111, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 110, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .navbarI {
   /*Utilizado en los items del navbar*/
   color: white;
@@ -106,13 +106,13 @@ input {
 
 @media (max-width: 768px) {
   /*Extension de navbarI*/
-  /* line 117, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 116, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .navbarI {
     margin-right: 20px !important;
   }
 }
 
-/* line 122, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 121, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .h1indexani1 {
   /*Animaciones de h1 de todas las paginas*/
   opacity: 0;
@@ -122,7 +122,7 @@ input {
   animation-fill-mode: forwards;
 }
 
-/* line 131, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 130, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .h1indexani2 {
   /*Animaciones de h1 Index*/
   opacity: 0;
@@ -142,24 +142,24 @@ input {
   }
 }
 
-/* line 151, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 150, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .white {
   color: whitesmoke;
 }
 
-/* line 155, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 154, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .black {
   color: black;
 }
 
-/* line 159, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 158, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .texth2 {
   font-size: 15px;
   text-align: justify;
 }
 
 @media (min-width: 992px) {
-  /* line 165, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 164, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .texth2 {
     font-size: 18px;
     margin-left: 5%;
@@ -167,20 +167,20 @@ input {
   }
 }
 
-/* line 172, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 171, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .texth3 {
   font-size: 24px;
   text-decoration: underline;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 178, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 177, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .texth3 {
     font-size: 18px;
   }
 }
 
-/* line 183, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 182, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .textul {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -188,7 +188,7 @@ input {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  /* line 190, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 189, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .textul {
     font-size: 13px;
   }
@@ -198,61 +198,61 @@ input {
 /*Fin*/
 /*Comienzo*/
 /*-------------------------------------CSS DE INDEX ------------------------------------*/
-/* line 205, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 204, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .gradienti {
   background: linear-gradient(to right, #005dad, #005dad);
 }
 
-/* line 209, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 208, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardgradj {
   background: linear-gradient(#ff7f3e, #fe0005, #fe0005);
 }
 
-/* line 212, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 211, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardgradp {
   background: linear-gradient(#1f5b99, #004ca4, #004ca4);
 }
 
-/* line 215, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 214, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardgradse {
   background: linear-gradient(#1c5c9c, #004392, #004392);
 }
 
-/* line 218, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 217, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardgrads {
   background: linear-gradient(#a3378e, #930f80, #930f80);
 }
 
-/* line 222, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 221, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backb2index {
   background-color: #4CA4D4;
 }
 
-/* line 226, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 225, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorSubI {
   /*Color de las letras del index*/
   color: #005dad;
 }
 
-/* line 229, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 228, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorHFI {
   /*Color de los contenedores de index*/
   background-color: #005dad;
 }
 
-/* line 233, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 232, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .h2index, .pindex {
   color: whitesmoke;
   font: helvetica;
   font-size: 34px;
 }
 
-/* line 240, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 239, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .pindex {
   font-size: 18px;
 }
 
-/* line 247, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 246, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardimg {
   width: 100%;
   margin: 0 !important;
@@ -260,32 +260,32 @@ input {
   padding: 0 !important;
 }
 
-/* line 255, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 254, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardbtn {
   width: 100%;
   background-color: white;
   color: #6e81b6;
 }
 
-/* line 261, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 260, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .transition {
   /*Animaciones de las tarjetas Index*/
   transition: all 0.5s ease-out;
 }
 
-/* line 265, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 264, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardani:hover {
   /*Animaciones de las tarjetas Index*/
   transform: scale(1.1, 1.1);
 }
 
-/* line 269, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 268, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .cardheight {
   /*Animaciones de las tarjetas Index*/
   height: 20%;
 }
 
-/* line 274, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 273, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaR, .precargaR--inicial, .precargaR--primaria, .precargaR--medio, .precargaR--superior {
   /*Utilizado en la animacion de inicio de pagina*/
   width: 50%;
@@ -302,7 +302,7 @@ input {
   animation-fill-mode: forwards;
 }
 
-/* line 289, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 288, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaL, .precargaL--inicial, .precargaL--primaria, .precargaL--medio, .precargaL--superior {
   /*Utilizado en la animacion de inicio de pagina*/
   width: 50%;
@@ -345,39 +345,39 @@ input {
 /*Fin*/
 /*Comienzo*/
 /*--------------------------------------CSS DE JARDIN -----------------------------------*/
-/* line 330, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 329, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorSubJ {
   /*Color de las letras de jardin*/
   color: #005dad !important;
 }
 
-/* line 334, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 333, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backjardin {
   background-color: #F3BB9D;
 }
 
-/* line 338, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 337, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backbjardin {
   background-color: #FC9C7C;
 }
 
-/* line 342, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 341, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backcjardin {
   background-color: #f58e5a;
 }
 
-/* line 346, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 345, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorHFJ {
   /*Color de los contenedores de Jardin*/
   background-color: #ff7f3e;
 }
 
-/* line 350, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 349, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .gradientj {
   background: linear-gradient(to right, #005dad, #ff7f3e, #ff7f3e);
 }
 
-/* line 354, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 353, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .ulinicial {
   /*Utilizado en la info principal de jardin*/
   display: none;
@@ -385,7 +385,7 @@ input {
 
 @media (max-width: 576px) {
   /*Utilizado en la info principal de jardin*/
-  /* line 359, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 358, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .ulinicial {
     display: inline;
   }
@@ -393,19 +393,19 @@ input {
 
 @media (max-width: 576px) {
   /*Utilizado en la info principal de jardin*/
-  /* line 365, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 364, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .ulinicial2 {
     display: none;
   }
 }
 
-/* line 371, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 370, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaR--inicial {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #ff7f3e;
 }
 
-/* line 375, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 374, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaL--inicial {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #ff7f3e;
@@ -415,37 +415,37 @@ input {
 /*Fin*/
 /*Comienzo*/
 /*-------------------------------CSS DE PRIMARIA ----------------------------*/
-/* line 385, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 384, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorHFP {
   /*Color de los contenedores de primaria*/
   background-color: #1f5b99;
 }
 
-/* line 389, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 388, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .gradientp {
   background: linear-gradient(to right, #005dad, #1f5b99, #1f5b99);
 }
 
-/* line 393, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 392, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaR--primaria {
   /*Utilizado en la animacion de inicio de pagina*/
   height: 1100px;
   background-color: #1f5b99;
 }
 
-/* line 398, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 397, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaL--primaria {
   /*Utilizado en la animacion de inicio de pagina*/
   height: 1100px;
   background-color: #1f5b99;
 }
 
-/* line 404, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 403, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backprimaria {
   background-color: #4CA4D4;
 }
 
-/* line 409, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 408, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .backbprimaria {
   background-color: #0a64ae;
 }
@@ -454,30 +454,30 @@ input {
 /*Fin*/
 /*Comienzo*/
 /*---------------------------CSS DE SECUNDARIA ---------------------*/
-/* line 418, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 417, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorSubSe {
   /*Color de las letras de Secundaria*/
   color: #1c5c9c;
 }
 
-/* line 421, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 420, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorHFSe {
   /*Color de los contenedores de Secundaria*/
   background-color: #1c5c9c;
 }
 
-/* line 425, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 424, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .gradientse {
   background: linear-gradient(to right, #005dad, #1c5c9c, #1c5c9c);
 }
 
-/* line 430, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 429, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaR--medio {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #1c5c9c;
 }
 
-/* line 434, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 433, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaL--medio {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #1c5c9c;
@@ -487,47 +487,52 @@ input {
 /*Fin*/
 /*Comienzo*/
 /*-----------------------CSS DE SUPERIOR ---------------------*/
-/* line 444, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 443, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorSubS {
   /*Color de las letras de Superior*/
   color: #a3378e;
 }
 
-/* line 447, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 446, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorHFS {
   /*Color de los contenedores de Superior*/
   background-color: #a3378e;
 }
 
-/* line 451, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 450, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .gradients {
   background: linear-gradient(to right, #005dad, #a3378e, #a3378e);
 }
 
-/* line 456, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 454, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
+.backsuperior {
+  background-color: #855692;
+}
+
+/* line 458, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .colorsup {
   background-color: #1c62b0;
   color: white;
 }
 
-/* line 462, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 463, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .bordenegro {
   border: black solid 1px;
 }
 
-/* line 467, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 468, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaR--superior {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #a3378e;
 }
 
-/* line 471, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 472, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .precargaL--superior {
   /*Utilizado en la animacion de inicio de pagina*/
   background-color: #a3378e;
 }
 
-/* line 476, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 477, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .textcarrera {
   font-size: 20px;
   font-family: helvetica;
@@ -537,7 +542,7 @@ input {
 /*Fin*/
 /*-------------------------FORMULARIO DE PAGINAS------------------------*/
 @media (min-width: 992px) {
-  /* line 492, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 493, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .divform {
     /*Contenedor del Formulario*/
     width: 70%;
@@ -546,7 +551,7 @@ input {
   }
 }
 
-/* line 499, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 500, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -554,7 +559,7 @@ form {
   grid-template-areas: "a d g " "b e h" "c f i";
 }
 
-/* line 509, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 510, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .forma {
   grid-area: a;
   margin-top: 5%;
@@ -562,19 +567,19 @@ form {
   font-size: 22px;
 }
 
-/* line 517, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 518, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formb {
   grid-area: b;
   margin-top: 5%;
   font-family: helvetica;
 }
 
-/* line 523, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 524, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formc {
   grid-area: c;
 }
 
-/* line 527, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 528, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formd {
   grid-area: d;
   margin-top: 3%;
@@ -583,7 +588,7 @@ form {
   margin: auto;
 }
 
-/* line 535, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 536, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .forme {
   grid-area: e;
   margin-top: 3%;
@@ -592,7 +597,7 @@ form {
   margin: auto;
 }
 
-/* line 543, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 544, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formf {
   grid-area: f;
   margin-top: 3%;
@@ -601,7 +606,7 @@ form {
   margin: auto;
 }
 
-/* line 551, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 552, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formg {
   grid-area: g;
   margin-top: 5%;
@@ -610,14 +615,14 @@ form {
   margin: auto;
 }
 
-/* line 559, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 560, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formh {
   grid-area: h;
   width: 70%;
   margin: auto;
 }
 
-/* line 565, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 566, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .formi {
   grid-area: i;
   height: 50%;
@@ -626,42 +631,42 @@ form {
 }
 
 @media (max-width: 576px) {
-  /* line 574, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 575, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   form {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 100px 40px 40px 40px 40px 60px 40px;
     grid-template-areas: "a " "b" "d" "e" "f" "g" "h" "i";
   }
-  /* line 589, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 590, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .formd {
     grid-area: d;
     height: 80%;
     width: 60%;
     margin: auto;
   }
-  /* line 595, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 596, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .forme {
     grid-area: e;
     height: 80%;
     width: 60%;
     margin: auto;
   }
-  /* line 601, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 602, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .formf {
     grid-area: f;
     height: 80%;
     width: 60%;
     margin: auto;
   }
-  /* line 607, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 608, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .formg {
     grid-area: g;
     height: 80%;
     width: 60%;
     margin: auto;
   }
-  /* line 613, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+  /* line 614, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
   .formi {
     grid-area: i;
     height: 80%;
@@ -672,7 +677,7 @@ form {
 
 /*----------------------FORMULARIO DE PAGINAS-------------*/
 /*CCS DE NIVEL MEDIO*/
-/* line 627, ../../../Desktop/Programacion/CoderCurso/Bootstrap/scss/estilos.scss */
+/* line 628, ../../../Desktop/Programacion/CoderCurso/ProyectoFinal/Ticho27.github.io/scss/estilos.scss */
 .contprinci {
   /*Contenedor Principal y contenedor del formulario Margenes*/
   margin-left: auto !important;
