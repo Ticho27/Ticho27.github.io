@@ -1,0 +1,632 @@
+/*----INDICE----*/
+
+
+
+.mbreset{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*Variables Start*/
+
+
+
+/*Colores de prueba*/
+$backbindex: #4CA4D4;
+$backjardin: #F3BB9D;
+$backbjardin: #FC9C7C;
+$backcjardin: #f58e5a;
+$backprimaria: #4CA4D4;
+$backbprimaria: #0a64ae;
+/*Colores de prueba*/
+$liceo:#1c62b0;
+$ciudad: #702f91;
+
+$backgroundcolor: rgb(237, 245, 252);
+$primarycolor: rgb(110, 129, 182);
+
+$inicialcolor: #ff7f3e;
+$gradientinicial: #fe0005;
+$primariacolor: #1f5b99;
+$gradientprimaria: #004ca4;
+$secundariacolor: #1c5c9c;
+$gradientsecundaria: #004392;
+$superiorcolor: #a3378e;
+$gradientsuperior: #930f80;
+$iconcolor: #005dad;
+
+/*Variables End*/
+
+/*Comienzo*/
+/*--------------------CSS global (de todas las paginas)------------------*/
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.aquamarine { /*Color del background general*/
+    background-color: #7CB4DC;
+}
+
+.logo{ /*Utilizado en el logo de todos los headers*/
+    border-radius: 50%;
+    margin-right: 1%;
+}
+
+.iconos{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 50%;
+    height: 3%;
+    width: 3%;
+}
+
+@media screen and (max-width: 576px){
+    .iconos{
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 50%;
+        height: 5%;
+        width: 5%;
+    }
+}
+
+@media screen and (min-width: 576px) {/*Utilizado en el titulo del header*/
+    .none {
+        display: none;
+    }
+}
+
+.dbody{/*Utilizado en el body de todos las paginas, necesario para las animaciones de comienzo de pagina*/
+    position: absolute;
+    z-index: 1;
+    width: 100%; 
+}
+
+footer {/*Da los parametros de las letras del footer*/
+    font-size: 11px;
+    font-family: helvetica;
+    color: white;
+}
+
+.borderwhite {/*Borde del footer*/
+    border: solid 1px white;
+}
+
+input {/*Utilizado en los formularios para dar el ancho de los inputs*/
+    width: 32%;
+}
+
+.titulo {/*Utilizado en el titulo del Header para setear parametros de letra*/
+    font-weight: bold;
+    font-family: helvetica;
+    text-align: left!important;
+    color: white;
+}
+
+.navbarI { /*Utilizado en los items del navbar*/
+    color: white;
+    text-align: right;
+}
+
+@media (max-width:768px){/*Extension de navbarI*/
+    .navbarI{
+        margin-right: 20px!important;
+    }
+}
+
+.h1indexani1 {
+    /*Animaciones de h1 de todas las paginas*/
+    opacity:0;
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+}
+
+.h1indexani2 {
+    /*Animaciones de h1 Index*/
+    opacity: 0;
+    animation-delay: 3.5s;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aparecer {/*Extension de animaciones de h1*/
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.white{
+    color: whitesmoke;
+}
+
+.black{
+    color:black;
+}
+
+.texth2 {
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 992px) {
+    .texth2 {
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.texth3 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .texth3 {
+        font-size: 18px;
+    }
+}
+
+.textul {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .textul {
+        font-size: 13px;
+    }
+}
+
+
+
+/*------------------------------CSS global (de todas las paginas)---------------------*/
+/*Fin*/
+
+
+
+/*Comienzo*/
+/*-------------------------------------CSS DE INDEX ------------------------------------*/
+
+.gradienti{
+    background: linear-gradient(to right, $iconcolor , $iconcolor);
+}
+
+.cardgradj{
+    background: linear-gradient($inicialcolor , $gradientinicial, $gradientinicial);
+}
+.cardgradp{
+    background: linear-gradient($primariacolor , $gradientprimaria,$gradientprimaria);
+}
+.cardgradse{
+    background: linear-gradient($secundariacolor, $gradientsecundaria,$gradientsecundaria);
+}
+.cardgrads{
+    background: linear-gradient($superiorcolor , $gradientsuperior,$gradientsuperior);
+}
+
+.backb2index{
+    background-color: $backbindex;
+}
+
+.colorSubI {/*Color de las letras del index*/
+    color: $iconcolor;
+}
+.colorHFI {/*Color de los contenedores de index*/
+    background-color: $iconcolor;
+}
+
+.h2index{
+    color: whitesmoke;
+    font: helvetica;
+    font-size: 34px
+}
+
+
+.pindex{
+    @extend .h2index;
+    font-size: 18px;
+}
+
+
+
+.cardimg{
+    width: 100%;
+    margin: 0!important;
+    border: 0!important;
+    padding: 0!important;
+
+}
+
+.cardbtn{
+    width: 100%;
+    background-color: white;
+    color: $primarycolor;
+}
+
+.transition {/*Animaciones de las tarjetas Index*/
+    transition: all 0.5s ease-out;
+}
+
+.cardani:hover { /*Animaciones de las tarjetas Index*/
+    transform: scale(1.1, 1.1);
+}
+
+.cardheight { /*Animaciones de las tarjetas Index*/
+    height: 20%;
+}
+
+
+.precargaR{ /*Utilizado en la animacion de inicio de pagina*/
+    width: 50%;
+    height: 1200px;
+    background-color: $iconcolor;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    overflow-y: hidden;
+    animation: ease-in-out;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: precarga;
+    animation-fill-mode: forwards;
+}
+
+.precargaL{ /*Utilizado en la animacion de inicio de pagina*/
+    width: 50%;
+    height: 1200px;
+    background-color: $iconcolor;
+    position: absolute;
+    z-index: 2;
+    overflow-y: hidden;
+    right: 50%;
+    animation: ease-in-out;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: precarga2;
+    animation-fill-mode: forwards;
+
+
+    @keyframes precarga{ /*Utilizado en la animacion de inicio de pagina*/
+        0%{
+            width: 50%;
+        }
+        100%{
+            width: 0%;
+            left: 100%;
+        }
+    }
+    
+    @keyframes precarga2{ /*Utilizado en la animacion de inicio de pagina*/
+        0%{ 
+            width: 50%;
+        }
+        100%{
+            width: 0%;
+            right: 100%;
+        }
+    }
+}
+
+/*-------------------------------------CSS DE INDEX ----------------------------------*/
+/*Fin*/
+
+/*Comienzo*/
+/*--------------------------------------CSS DE JARDIN -----------------------------------*/
+.colorSubJ {/*Color de las letras de jardin*/
+    color: $iconcolor!important;
+}
+
+.backjardin{
+    background-color: $backjardin;
+}
+
+.backbjardin{
+    background-color: $backbjardin;
+}
+
+.backcjardin{
+    background-color: $backcjardin;
+}
+
+.colorHFJ {/*Color de los contenedores de Jardin*/
+    background-color: $inicialcolor;
+}
+
+.gradientj{
+    background: linear-gradient(to right, $iconcolor , $inicialcolor, $inicialcolor);
+}
+
+.ulinicial{/*Utilizado en la info principal de jardin*/
+    display: none;
+}
+
+@media (max-width:576px) {/*Utilizado en la info principal de jardin*/
+    .ulinicial {
+        display: inline;
+    }
+} 
+
+@media (max-width:576px) {/*Utilizado en la info principal de jardin*/
+    .ulinicial2 {
+        display: none;
+    }
+} 
+
+
+.precargaR--inicial{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaR;
+    background-color: $inicialcolor;
+}
+.precargaL--inicial{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaL;
+    background-color: $inicialcolor;
+}
+
+/*---------------------------------CSS DE JARDIN ---------------------------------*/
+/*Fin*/
+
+/*Comienzo*/
+/*-------------------------------CSS DE PRIMARIA ----------------------------*/
+.colorHFP {/*Color de los contenedores de primaria*/
+    background-color: $primariacolor;
+}
+
+.gradientp{
+    background: linear-gradient(to right, $iconcolor , $primariacolor, $primariacolor);
+}
+
+.precargaR--primaria{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaR;
+    height: 1100px;
+    background-color: $primariacolor;
+}
+.precargaL--primaria{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaL;
+    height: 1100px;
+    background-color: $primariacolor;
+}
+
+.backprimaria{
+    background-color: $backprimaria;
+}
+
+
+.backbprimaria{
+    background-color: $backbprimaria;
+}
+
+/*------------------------CSS DE PRIMARIA ---------------------*/
+/*Fin*/
+
+/*Comienzo*/
+/*---------------------------CSS DE SECUNDARIA ---------------------*/
+.colorSubSe {/*Color de las letras de Secundaria*/
+    color: $secundariacolor;
+}
+.colorHFSe {/*Color de los contenedores de Secundaria*/
+    background-color: $secundariacolor;
+}
+
+.gradientse{
+    background: linear-gradient(to right, $iconcolor , $secundariacolor, $secundariacolor);
+}
+
+
+.precargaR--medio{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaR;
+    background-color: $secundariacolor;
+}
+.precargaL--medio{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaL;
+    background-color: $secundariacolor;
+}
+
+/*----------------------CSS DE SECUNDARIA ---------------------*/
+/*Fin*/
+
+/*Comienzo*/
+/*-----------------------CSS DE SUPERIOR ---------------------*/
+.colorSubS {/*Color de las letras de Superior*/
+    color: $superiorcolor;
+}
+.colorHFS {/*Color de los contenedores de Superior*/
+    background-color: $superiorcolor;
+}
+
+.gradients{
+    background: linear-gradient(to right, $iconcolor , $superiorcolor, $superiorcolor);
+}
+
+
+.colorsup{
+    background-color: $liceo;
+    color: white;
+    
+}
+
+.bordenegro{
+    border: black solid 1px;
+}
+
+
+.precargaR--superior{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaR;
+    background-color: $superiorcolor;
+}
+.precargaL--superior{ /*Utilizado en la animacion de inicio de pagina*/
+    @extend .precargaL;
+    background-color: $superiorcolor;
+}
+
+.textcarrera{
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+/*-----------------------CSS DE SUPERIOR ---------------------*/
+/*Fin*/
+
+
+
+
+
+
+/*-------------------------FORMULARIO DE PAGINAS------------------------*/
+
+@media (min-width: 992px) {
+    .divform {/*Contenedor del Formulario*/
+        width: 70%;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-areas:
+        "a d g "
+        "b e h"
+        "c f i";
+}
+
+.forma {
+    grid-area: a;
+    margin-top: 5%;
+    font-family: helvetica;
+    font-size: 22px;
+    
+}
+
+.formb {
+    grid-area: b;
+    margin-top: 5%;
+    font-family: helvetica;
+}
+
+.formc {
+    grid-area: c;
+}
+
+.formd {
+    grid-area: d;
+    margin-top: 3%;
+    height: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.forme {
+    grid-area: e;
+    margin-top: 3%;
+    height: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.formf {
+    grid-area: f;
+    margin-top: 3%;
+    height: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.formg {
+    grid-area: g;
+    margin-top: 5%;
+    height: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.formh {
+    grid-area: h;
+    width: 70%;
+    margin: auto;
+}
+
+.formi {
+    grid-area: i;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media (max-width: 576px) {
+    form  {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30px 100px 40px 40px 40px 40px 60px 40px;
+        grid-template-areas:
+            "a "
+            "b"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            ;
+    }
+    .formd{
+        grid-area: d;
+        height: 80%;
+        width: 60%;
+        margin: auto;
+    }
+    .forme{
+        grid-area: e;
+        height: 80%;
+        width: 60%;
+        margin: auto;
+    }
+    .formf{
+        grid-area: f;
+        height: 80%;
+        width: 60%;
+        margin: auto;
+    }
+    .formg{
+        grid-area: g;
+        height: 80%;
+        width: 60%;
+        margin: auto;
+    }
+    .formi{
+        grid-area: i;
+        height: 80%;
+        width: 60%;
+        margin: auto;
+    }
+}  
+
+/*----------------------FORMULARIO DE PAGINAS-------------*/
+
+
+/*CCS DE NIVEL MEDIO*/
+
+
+.contprinci { /*Contenedor Principal y contenedor del formulario Margenes*/
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+
