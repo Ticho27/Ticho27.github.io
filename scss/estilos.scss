@@ -17,7 +17,7 @@ $backbjardin: #FC9C7C;
 $backcjardin: #f58e5a;
 $backprimaria: #4CA4D4;
 $backbprimaria: #0a64ae;
-$backsuperior: #855692;
+$backsuperior: #C68CD4;
 /*Colores de prueba*/
 $liceo:#1c62b0;
 $ciudad: #702f91;
@@ -191,7 +191,9 @@ input {/*Utilizado en los formularios para dar el ancho de los inputs*/
     }
 }
 
-
+.helve{
+    font-family: Helvetica;
+}
 
 /*------------------------------CSS global (de todas las paginas)---------------------*/
 /*Fin*/
@@ -477,6 +479,15 @@ input {/*Utilizado en los formularios para dar el ancho de los inputs*/
 .textcarrera{
     font-size: 20px;
     font-family: helvetica;
+}
+
+.texttitle{
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.backciudad{
+    background-color: $ciudad;
 }
 
 /*-----------------------CSS DE SUPERIOR ---------------------*/
